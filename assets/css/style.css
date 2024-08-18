@@ -40,7 +40,8 @@ header li {
 }
 
 figure {
-    
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -60,14 +61,19 @@ main {
 
 section {
     flex: 1 0 80%;
+
     padding: 1% 3%;
     
 }
  
 #big1 img {
     width: 100%;
+    height: 60vh;
+    
 }
-
+#big12 {
+    display: flex;
+     }
 #big2 {
     background: url(https://static-3.bitchute.com/live/cover_images/PxsBDkXpbU5f/vTZB3gzgWpGa_640x360.jpg);
     background-size: contain;
@@ -80,3 +86,22 @@ section {
     align-items: end;
     background-color: black;
 }
+
+
+
+#pic1 {
+width: 400px;
+height: 400px;
+flex: 1 0 50%;
+margin: 0%;
+
+}
+
+#pic2 {
+    height: 10px;
+}
+
+#pic3 {
+    width: 50%;
+}
+
